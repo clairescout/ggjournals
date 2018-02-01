@@ -49,6 +49,7 @@ h1{
 h2{
   font-family: 'Gudea', sans-serif;
   text-align: center;
+  color: rgb(5, 74, 40);
 }
 
 .review p{
@@ -118,7 +119,7 @@ button {
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(5, 74, 40);
   left: 0;
   bottom: 0;
   width: 100%;
