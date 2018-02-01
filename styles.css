@@ -9,6 +9,8 @@ nav ul {
     width: 100%;
     text-align: center;
     margin-left: 35.5%;
+    color: rgb(5, 74, 40);
+    font-weight: bold;
     /* color: black; */
 }
 
@@ -18,7 +20,7 @@ nav li {
 
 nav li a {
     display: inline-block;
-    color: black;
+    color: rgb(5, 74, 40);
     text-align: center;
     padding: 0px 20px;
     padding-bottom: 70px;
@@ -37,6 +39,11 @@ h1{
   text-align: center;
   padding-bottom: 0px;
   padding-top: 0px;
+  color: rgb(5, 74, 40);
+}
+
+#mainheader {
+  padding-top: 59px;
 }
 
 h2{
@@ -58,6 +65,7 @@ form {
   border: 1px solid #CCC;
   border-radius: 1em;
   font-family: 'Gudea', sans-serif;
+  margin-bottom: 15px;
 }
 
 form div + div {
@@ -115,6 +123,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+  font-family: 'Gudea', sans-serif;
 }
 
 footer a {
@@ -138,13 +147,12 @@ grid-row-gap:20px;
 
 .image {
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-#about {
-  font-size: 75px;
-  padding-top: 0px;
-  border-top: solid;
-  border-color: black;
+#mainpage {
+  padding-bottom: 15px;
 }
 
 p{
